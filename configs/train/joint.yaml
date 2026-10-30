@@ -1,0 +1,8 @@
+tasks: ["ocr", "qa"]
+model: Qwen/Qwen3.5-2B
+revision: 15852e8c16360a2fea060d615a32b45270f8a8fc
+seed: 99
+epochs: 1
+expected_images: 3500
+format_weight: 0.2
+evidence_weight: 0.2

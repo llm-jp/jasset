@@ -1,0 +1,882 @@
+[
+  {
+    "text": "",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "「東京」である。\\boxed{東京}",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0,
+    "reward": 0.037037037037037056
+  },
+  {
+    "text": "「東京」である。\\boxed{東京}",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0.2,
+    "reward": 0.037037037037037056
+  },
+  {
+    "text": "「東京」である。\\boxed{東京}",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "「東京」である。\\boxed{東京}",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "「東京」「東京」\\boxed{東京}",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0,
+    "reward": 0.037037037037037056
+  },
+  {
+    "text": "「東京」「東京」\\boxed{東京}",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0.2,
+    "reward": 0.037037037037037056
+  },
+  {
+    "text": "「東京」「東京」\\boxed{東京}",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "「東京」「東京」\\boxed{東京}",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "「」\\boxed{大阪}",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0,
+    "reward": 0.055555555555555546
+  },
+  {
+    "text": "「」\\boxed{大阪}",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0.2,
+    "reward": 0.055555555555555546
+  },
+  {
+    "text": "「」\\boxed{大阪}",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "「」\\boxed{大阪}",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "\\boxed{東京}\\boxed{",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0,
+    "reward": 0.03921568627450981
+  },
+  {
+    "text": "\\boxed{東京}\\boxed{",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0.2,
+    "reward": 0.03921568627450981
+  },
+  {
+    "text": "\\boxed{東京}\\boxed{",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "\\boxed{東京}\\boxed{",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "\\boxed{}",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "\\boxed{}",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "\\boxed{}",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "\\boxed{}",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "\\boxed{東京}",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0,
+    "reward": 0.06666666666666665
+  },
+  {
+    "text": "\\boxed{東京}",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0.2,
+    "reward": 0.06666666666666665
+  },
+  {
+    "text": "\\boxed{東京}",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "\\boxed{東京}",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "東京\n大阪",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0,
+    "reward": 1.0
+  },
+  {
+    "text": "東京\n大阪",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0.2,
+    "reward": 1.0
+  },
+  {
+    "text": "東京\n大阪",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "東京\n大阪",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "Ａ ＢＣ\n東京",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0,
+    "reward": 0.5
+  },
+  {
+    "text": "Ａ ＢＣ\n東京",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0.2,
+    "reward": 0.5
+  },
+  {
+    "text": "Ａ ＢＣ\n東京",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "Ａ ＢＣ\n東京",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "前半\\boxed{{東京}}後半",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0,
+    "reward": 0.041666666666666664
+  },
+  {
+    "text": "前半\\boxed{{東京}}後半",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0.2,
+    "reward": 0.041666666666666664
+  },
+  {
+    "text": "前半\\boxed{{東京}}後半",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "前半\\boxed{{東京}}後半",
+    "task": "ocr",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "「東京」である。\\boxed{東京}",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0,
+    "reward": 1.2
+  },
+  {
+    "text": "「東京」である。\\boxed{東京}",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0.2,
+    "reward": 1.4
+  },
+  {
+    "text": "「東京」である。\\boxed{東京}",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "「東京」である。\\boxed{東京}",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "「東京」「東京」\\boxed{東京}",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0,
+    "reward": 1.2
+  },
+  {
+    "text": "「東京」「東京」\\boxed{東京}",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0.2,
+    "reward": 1.3333333333333333
+  },
+  {
+    "text": "「東京」「東京」\\boxed{東京}",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "「東京」「東京」\\boxed{東京}",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "「」\\boxed{大阪}",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0,
+    "reward": 1.2
+  },
+  {
+    "text": "「」\\boxed{大阪}",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0.2,
+    "reward": 1.2
+  },
+  {
+    "text": "「」\\boxed{大阪}",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "「」\\boxed{大阪}",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "\\boxed{東京}\\boxed{",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "\\boxed{東京}\\boxed{",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "\\boxed{東京}\\boxed{",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "\\boxed{東京}\\boxed{",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "\\boxed{}",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "\\boxed{}",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "\\boxed{}",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "\\boxed{}",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "\\boxed{東京}",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0,
+    "reward": 1.2
+  },
+  {
+    "text": "\\boxed{東京}",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0.2,
+    "reward": 1.2
+  },
+  {
+    "text": "\\boxed{東京}",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "\\boxed{東京}",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "東京\n大阪",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "東京\n大阪",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "東京\n大阪",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "東京\n大阪",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "Ａ ＢＣ\n東京",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "Ａ ＢＣ\n東京",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "Ａ ＢＣ\n東京",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "Ａ ＢＣ\n東京",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  },
+  {
+    "text": "前半\\boxed{{東京}}後半",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0,
+    "reward": 0.2
+  },
+  {
+    "text": "前半\\boxed{{東京}}後半",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": false,
+    "evidence_weight": 0.2,
+    "reward": 0.2
+  },
+  {
+    "text": "前半\\boxed{{東京}}後半",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0,
+    "reward": 0.0
+  },
+  {
+    "text": "前半\\boxed{{東京}}後半",
+    "task": "qa",
+    "references": [
+      "東京",
+      "大阪"
+    ],
+    "capped": true,
+    "evidence_weight": 0.2,
+    "reward": 0.0
+  }
+]

@@ -1,0 +1,3272 @@
+[
+  {
+    "task": "full-ocr",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": [
+          "東京",
+          "大阪"
+        ],
+        "reference_unit": "region_strings"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "full-ocr",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+        "images": 1,
+        "capped": 0,
+        "empty": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "ned": 1.0,
+        "cer": 1.0,
+        "character_micro_f1": 0.0,
+        "exact_region_recall": 0.0,
+        "cer_detail": {
+          "clipped_images": 1,
+          "exact_images": 1,
+          "exact_rate": 1.0,
+          "mean_gap": 0.0,
+          "median_image_cer": 1.0,
+          "reference_characters": 4,
+          "pooled_cer": null,
+          "substitutions": null,
+          "deletions": null,
+          "insertions": null
+        }
+      },
+      "completed": {
+        "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+        "images": 1,
+        "capped": 0,
+        "empty": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "ned": 1.0,
+        "cer": 1.0,
+        "character_micro_f1": 0.0,
+        "exact_region_recall": 0.0,
+        "cer_detail": {
+          "clipped_images": 1,
+          "exact_images": 1,
+          "exact_rate": 1.0,
+          "mean_gap": 0.0,
+          "median_image_cer": 1.0,
+          "reference_characters": 4,
+          "pooled_cer": null,
+          "substitutions": null,
+          "deletions": null,
+          "insertions": null
+        }
+      }
+    }
+  },
+  {
+    "task": "full-ocr",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": [
+          "東京",
+          "大阪"
+        ],
+        "reference_unit": "region_strings"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "「東京」である。\\boxed{東京}",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "full-ocr",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+        "images": 1,
+        "capped": 0,
+        "empty": 0,
+        "precision": 0.11111111110493826,
+        "recall": 0.499999999875,
+        "f1": 0.1818181815041322,
+        "ned": 0.9,
+        "cer": 1.0,
+        "character_micro_f1": 0.1818181815041322,
+        "exact_region_recall": 0.0,
+        "cer_detail": {
+          "clipped_images": 1,
+          "exact_images": 1,
+          "exact_rate": 1.0,
+          "mean_gap": 0.0,
+          "median_image_cer": 1.0,
+          "reference_characters": 4,
+          "pooled_cer": null,
+          "substitutions": null,
+          "deletions": null,
+          "insertions": null
+        }
+      },
+      "completed": {
+        "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+        "images": 1,
+        "capped": 0,
+        "empty": 0,
+        "precision": 0.11111111110493826,
+        "recall": 0.499999999875,
+        "f1": 0.1818181815041322,
+        "ned": 0.9,
+        "cer": 1.0,
+        "character_micro_f1": 0.1818181815041322,
+        "exact_region_recall": 0.0,
+        "cer_detail": {
+          "clipped_images": 1,
+          "exact_images": 1,
+          "exact_rate": 1.0,
+          "mean_gap": 0.0,
+          "median_image_cer": 1.0,
+          "reference_characters": 4,
+          "pooled_cer": null,
+          "substitutions": null,
+          "deletions": null,
+          "insertions": null
+        }
+      }
+    }
+  },
+  {
+    "task": "full-ocr",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": [
+          "東京",
+          "大阪"
+        ],
+        "reference_unit": "region_strings"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "「東京」「東京」\\boxed{東京}",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "full-ocr",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+        "images": 1,
+        "capped": 0,
+        "empty": 0,
+        "precision": 0.11111111110493826,
+        "recall": 0.499999999875,
+        "f1": 0.1818181815041322,
+        "ned": 0.9,
+        "cer": 1.0,
+        "character_micro_f1": 0.1818181815041322,
+        "exact_region_recall": 0.0,
+        "cer_detail": {
+          "clipped_images": 1,
+          "exact_images": 1,
+          "exact_rate": 1.0,
+          "mean_gap": 0.0,
+          "median_image_cer": 1.0,
+          "reference_characters": 4,
+          "pooled_cer": null,
+          "substitutions": null,
+          "deletions": null,
+          "insertions": null
+        }
+      },
+      "completed": {
+        "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+        "images": 1,
+        "capped": 0,
+        "empty": 0,
+        "precision": 0.11111111110493826,
+        "recall": 0.499999999875,
+        "f1": 0.1818181815041322,
+        "ned": 0.9,
+        "cer": 1.0,
+        "character_micro_f1": 0.1818181815041322,
+        "exact_region_recall": 0.0,
+        "cer_detail": {
+          "clipped_images": 1,
+          "exact_images": 1,
+          "exact_rate": 1.0,
+          "mean_gap": 0.0,
+          "median_image_cer": 1.0,
+          "reference_characters": 4,
+          "pooled_cer": null,
+          "substitutions": null,
+          "deletions": null,
+          "insertions": null
+        }
+      }
+    }
+  },
+  {
+    "task": "full-ocr",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": [
+          "東京",
+          "大阪"
+        ],
+        "reference_unit": "region_strings"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "「」\\boxed{大阪}",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "full-ocr",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+        "images": 1,
+        "capped": 0,
+        "empty": 0,
+        "precision": 0.16666666665277777,
+        "recall": 0.499999999875,
+        "f1": 0.24999999959375002,
+        "ned": 0.8571428571428571,
+        "cer": 1.0,
+        "character_micro_f1": 0.24999999959375002,
+        "exact_region_recall": 0.0,
+        "cer_detail": {
+          "clipped_images": 1,
+          "exact_images": 1,
+          "exact_rate": 1.0,
+          "mean_gap": 0.0,
+          "median_image_cer": 1.0,
+          "reference_characters": 4,
+          "pooled_cer": null,
+          "substitutions": null,
+          "deletions": null,
+          "insertions": null
+        }
+      },
+      "completed": {
+        "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+        "images": 1,
+        "capped": 0,
+        "empty": 0,
+        "precision": 0.16666666665277777,
+        "recall": 0.499999999875,
+        "f1": 0.24999999959375002,
+        "ned": 0.8571428571428571,
+        "cer": 1.0,
+        "character_micro_f1": 0.24999999959375002,
+        "exact_region_recall": 0.0,
+        "cer_detail": {
+          "clipped_images": 1,
+          "exact_images": 1,
+          "exact_rate": 1.0,
+          "mean_gap": 0.0,
+          "median_image_cer": 1.0,
+          "reference_characters": 4,
+          "pooled_cer": null,
+          "substitutions": null,
+          "deletions": null,
+          "insertions": null
+        }
+      }
+    }
+  },
+  {
+    "task": "full-ocr",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": [
+          "東京",
+          "大阪"
+        ],
+        "reference_unit": "region_strings"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "\\boxed{東京}\\boxed{",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "full-ocr",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+        "images": 1,
+        "capped": 0,
+        "empty": 0,
+        "precision": 0.117647058816609,
+        "recall": 0.499999999875,
+        "f1": 0.19047619014965989,
+        "ned": 0.8947368421052632,
+        "cer": 1.0,
+        "character_micro_f1": 0.19047619014965989,
+        "exact_region_recall": 0.0,
+        "cer_detail": {
+          "clipped_images": 1,
+          "exact_images": 1,
+          "exact_rate": 1.0,
+          "mean_gap": 0.0,
+          "median_image_cer": 1.0,
+          "reference_characters": 4,
+          "pooled_cer": null,
+          "substitutions": null,
+          "deletions": null,
+          "insertions": null
+        }
+      },
+      "completed": {
+        "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+        "images": 1,
+        "capped": 0,
+        "empty": 0,
+        "precision": 0.117647058816609,
+        "recall": 0.499999999875,
+        "f1": 0.19047619014965989,
+        "ned": 0.8947368421052632,
+        "cer": 1.0,
+        "character_micro_f1": 0.19047619014965989,
+        "exact_region_recall": 0.0,
+        "cer_detail": {
+          "clipped_images": 1,
+          "exact_images": 1,
+          "exact_rate": 1.0,
+          "mean_gap": 0.0,
+          "median_image_cer": 1.0,
+          "reference_characters": 4,
+          "pooled_cer": null,
+          "substitutions": null,
+          "deletions": null,
+          "insertions": null
+        }
+      }
+    }
+  },
+  {
+    "task": "full-ocr",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": [
+          "東京",
+          "大阪"
+        ],
+        "reference_unit": "region_strings"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "\\boxed{}",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "full-ocr",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+        "images": 1,
+        "capped": 0,
+        "empty": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "ned": 1.0,
+        "cer": 1.0,
+        "character_micro_f1": 0.0,
+        "exact_region_recall": 0.0,
+        "cer_detail": {
+          "clipped_images": 1,
+          "exact_images": 1,
+          "exact_rate": 1.0,
+          "mean_gap": 0.0,
+          "median_image_cer": 1.0,
+          "reference_characters": 4,
+          "pooled_cer": null,
+          "substitutions": null,
+          "deletions": null,
+          "insertions": null
+        }
+      },
+      "completed": {
+        "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+        "images": 1,
+        "capped": 0,
+        "empty": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "ned": 1.0,
+        "cer": 1.0,
+        "character_micro_f1": 0.0,
+        "exact_region_recall": 0.0,
+        "cer_detail": {
+          "clipped_images": 1,
+          "exact_images": 1,
+          "exact_rate": 1.0,
+          "mean_gap": 0.0,
+          "median_image_cer": 1.0,
+          "reference_characters": 4,
+          "pooled_cer": null,
+          "substitutions": null,
+          "deletions": null,
+          "insertions": null
+        }
+      }
+    }
+  },
+  {
+    "task": "full-ocr",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": [
+          "東京",
+          "大阪"
+        ],
+        "reference_unit": "region_strings"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "\\boxed{東京}",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "full-ocr",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+        "images": 1,
+        "capped": 0,
+        "empty": 0,
+        "precision": 0.19999999998,
+        "recall": 0.499999999875,
+        "f1": 0.2857142852653062,
+        "ned": 0.8333333333333334,
+        "cer": 1.0,
+        "character_micro_f1": 0.2857142852653062,
+        "exact_region_recall": 0.0,
+        "cer_detail": {
+          "clipped_images": 1,
+          "exact_images": 1,
+          "exact_rate": 1.0,
+          "mean_gap": 0.0,
+          "median_image_cer": 1.0,
+          "reference_characters": 4,
+          "pooled_cer": null,
+          "substitutions": null,
+          "deletions": null,
+          "insertions": null
+        }
+      },
+      "completed": {
+        "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+        "images": 1,
+        "capped": 0,
+        "empty": 0,
+        "precision": 0.19999999998,
+        "recall": 0.499999999875,
+        "f1": 0.2857142852653062,
+        "ned": 0.8333333333333334,
+        "cer": 1.0,
+        "character_micro_f1": 0.2857142852653062,
+        "exact_region_recall": 0.0,
+        "cer_detail": {
+          "clipped_images": 1,
+          "exact_images": 1,
+          "exact_rate": 1.0,
+          "mean_gap": 0.0,
+          "median_image_cer": 1.0,
+          "reference_characters": 4,
+          "pooled_cer": null,
+          "substitutions": null,
+          "deletions": null,
+          "insertions": null
+        }
+      }
+    }
+  },
+  {
+    "task": "full-ocr",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": [
+          "東京",
+          "大阪"
+        ],
+        "reference_unit": "region_strings"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "東京\n大阪",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "full-ocr",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+        "images": 1,
+        "capped": 0,
+        "empty": 0,
+        "precision": 0.99999999975,
+        "recall": 0.99999999975,
+        "f1": 0.9999999992499999,
+        "ned": 0.0,
+        "cer": 0.0,
+        "character_micro_f1": 0.9999999992499999,
+        "exact_region_recall": 1.0,
+        "cer_detail": {
+          "clipped_images": 0,
+          "exact_images": 1,
+          "exact_rate": 1.0,
+          "mean_gap": 0.0,
+          "median_image_cer": 0.0,
+          "reference_characters": 4,
+          "pooled_cer": 0.0,
+          "substitutions": 0,
+          "deletions": 0,
+          "insertions": 0
+        }
+      },
+      "completed": {
+        "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+        "images": 1,
+        "capped": 0,
+        "empty": 0,
+        "precision": 0.99999999975,
+        "recall": 0.99999999975,
+        "f1": 0.9999999992499999,
+        "ned": 0.0,
+        "cer": 0.0,
+        "character_micro_f1": 0.9999999992499999,
+        "exact_region_recall": 1.0,
+        "cer_detail": {
+          "clipped_images": 0,
+          "exact_images": 1,
+          "exact_rate": 1.0,
+          "mean_gap": 0.0,
+          "median_image_cer": 0.0,
+          "reference_characters": 4,
+          "pooled_cer": 0.0,
+          "substitutions": 0,
+          "deletions": 0,
+          "insertions": 0
+        }
+      }
+    }
+  },
+  {
+    "task": "full-ocr",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": [
+          "東京",
+          "大阪"
+        ],
+        "reference_unit": "region_strings"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "Ａ ＢＣ\n東京",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "full-ocr",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+        "images": 1,
+        "capped": 0,
+        "empty": 0,
+        "precision": 0.39999999992,
+        "recall": 0.499999999875,
+        "f1": 0.4444444438518519,
+        "ned": 0.6,
+        "cer": 0.75,
+        "character_micro_f1": 0.4444444438518519,
+        "exact_region_recall": 0.5,
+        "cer_detail": {
+          "clipped_images": 0,
+          "exact_images": 1,
+          "exact_rate": 1.0,
+          "mean_gap": 0.0,
+          "median_image_cer": 0.75,
+          "reference_characters": 4,
+          "pooled_cer": 0.75,
+          "substitutions": 2,
+          "deletions": 0,
+          "insertions": 1
+        }
+      },
+      "completed": {
+        "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+        "images": 1,
+        "capped": 0,
+        "empty": 0,
+        "precision": 0.39999999992,
+        "recall": 0.499999999875,
+        "f1": 0.4444444438518519,
+        "ned": 0.6,
+        "cer": 0.75,
+        "character_micro_f1": 0.4444444438518519,
+        "exact_region_recall": 0.5,
+        "cer_detail": {
+          "clipped_images": 0,
+          "exact_images": 1,
+          "exact_rate": 1.0,
+          "mean_gap": 0.0,
+          "median_image_cer": 0.75,
+          "reference_characters": 4,
+          "pooled_cer": 0.75,
+          "substitutions": 2,
+          "deletions": 0,
+          "insertions": 1
+        }
+      }
+    }
+  },
+  {
+    "task": "full-ocr",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": [
+          "東京",
+          "大阪"
+        ],
+        "reference_unit": "region_strings"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "前半\\boxed{{東京}}後半",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "full-ocr",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+        "images": 1,
+        "capped": 0,
+        "empty": 0,
+        "precision": 0.1249999999921875,
+        "recall": 0.499999999875,
+        "f1": 0.19999999966,
+        "ned": 0.8888888888888888,
+        "cer": 1.0,
+        "character_micro_f1": 0.19999999966,
+        "exact_region_recall": 0.0,
+        "cer_detail": {
+          "clipped_images": 1,
+          "exact_images": 1,
+          "exact_rate": 1.0,
+          "mean_gap": 0.0,
+          "median_image_cer": 1.0,
+          "reference_characters": 4,
+          "pooled_cer": null,
+          "substitutions": null,
+          "deletions": null,
+          "insertions": null
+        }
+      },
+      "completed": {
+        "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+        "images": 1,
+        "capped": 0,
+        "empty": 0,
+        "precision": 0.1249999999921875,
+        "recall": 0.499999999875,
+        "f1": 0.19999999966,
+        "ned": 0.8888888888888888,
+        "cer": 1.0,
+        "character_micro_f1": 0.19999999966,
+        "exact_region_recall": 0.0,
+        "cer_detail": {
+          "clipped_images": 1,
+          "exact_images": 1,
+          "exact_rate": 1.0,
+          "mean_gap": 0.0,
+          "median_image_cer": 1.0,
+          "reference_characters": 4,
+          "pooled_cer": null,
+          "substitutions": null,
+          "deletions": null,
+          "insertions": null
+        }
+      }
+    }
+  },
+  {
+    "task": "cc-ocr",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": "東京 大阪",
+        "reference_unit": "whole_transcript"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "cc-ocr",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "ned": 1.0,
+        "character_macro_f1": 0.0,
+        "character_micro_f1": 0.0
+      },
+      "completed": {
+        "ned": 1.0,
+        "character_macro_f1": 0.0,
+        "character_micro_f1": 0.0
+      }
+    }
+  },
+  {
+    "task": "cc-ocr",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": "東京 大阪",
+        "reference_unit": "whole_transcript"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "「東京」である。\\boxed{東京}",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "cc-ocr",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "ned": 0.8888888888888888,
+        "character_macro_f1": 0.1818181815041322,
+        "character_micro_f1": 0.1818181815041322
+      },
+      "completed": {
+        "ned": 0.8888888888888888,
+        "character_macro_f1": 0.1818181815041322,
+        "character_micro_f1": 0.1818181815041322
+      }
+    }
+  },
+  {
+    "task": "cc-ocr",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": "東京 大阪",
+        "reference_unit": "whole_transcript"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "「東京」「東京」\\boxed{東京}",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "cc-ocr",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "ned": 0.8888888888888888,
+        "character_macro_f1": 0.1818181815041322,
+        "character_micro_f1": 0.1818181815041322
+      },
+      "completed": {
+        "ned": 0.8888888888888888,
+        "character_macro_f1": 0.1818181815041322,
+        "character_micro_f1": 0.1818181815041322
+      }
+    }
+  },
+  {
+    "task": "cc-ocr",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": "東京 大阪",
+        "reference_unit": "whole_transcript"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "「」\\boxed{大阪}",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "cc-ocr",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "ned": 0.8333333333333334,
+        "character_macro_f1": 0.24999999959375002,
+        "character_micro_f1": 0.24999999959375002
+      },
+      "completed": {
+        "ned": 0.8333333333333334,
+        "character_macro_f1": 0.24999999959375002,
+        "character_micro_f1": 0.24999999959375002
+      }
+    }
+  },
+  {
+    "task": "cc-ocr",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": "東京 大阪",
+        "reference_unit": "whole_transcript"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "\\boxed{東京}\\boxed{",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "cc-ocr",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "ned": 0.8823529411764706,
+        "character_macro_f1": 0.19047619014965989,
+        "character_micro_f1": 0.19047619014965989
+      },
+      "completed": {
+        "ned": 0.8823529411764706,
+        "character_macro_f1": 0.19047619014965989,
+        "character_micro_f1": 0.19047619014965989
+      }
+    }
+  },
+  {
+    "task": "cc-ocr",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": "東京 大阪",
+        "reference_unit": "whole_transcript"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "\\boxed{}",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "cc-ocr",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "ned": 1.0,
+        "character_macro_f1": 0.0,
+        "character_micro_f1": 0.0
+      },
+      "completed": {
+        "ned": 1.0,
+        "character_macro_f1": 0.0,
+        "character_micro_f1": 0.0
+      }
+    }
+  },
+  {
+    "task": "cc-ocr",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": "東京 大阪",
+        "reference_unit": "whole_transcript"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "\\boxed{東京}",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "cc-ocr",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "ned": 0.9,
+        "character_macro_f1": 0.2857142852653062,
+        "character_micro_f1": 0.2857142852653062
+      },
+      "completed": {
+        "ned": 0.9,
+        "character_macro_f1": 0.2857142852653062,
+        "character_micro_f1": 0.2857142852653062
+      }
+    }
+  },
+  {
+    "task": "cc-ocr",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": "東京 大阪",
+        "reference_unit": "whole_transcript"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "東京\n大阪",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "cc-ocr",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "ned": 0.0,
+        "character_macro_f1": 0.9999999992499999,
+        "character_micro_f1": 0.9999999992499999
+      },
+      "completed": {
+        "ned": 0.0,
+        "character_macro_f1": 0.9999999992499999,
+        "character_micro_f1": 0.9999999992499999
+      }
+    }
+  },
+  {
+    "task": "cc-ocr",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": "東京 大阪",
+        "reference_unit": "whole_transcript"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "Ａ ＢＣ\n東京",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "cc-ocr",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "ned": 1.0,
+        "character_macro_f1": 0.4444444438518519,
+        "character_micro_f1": 0.4444444438518519
+      },
+      "completed": {
+        "ned": 1.0,
+        "character_macro_f1": 0.4444444438518519,
+        "character_micro_f1": 0.4444444438518519
+      }
+    }
+  },
+  {
+    "task": "cc-ocr",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": "東京 大阪",
+        "reference_unit": "whole_transcript"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "前半\\boxed{{東京}}後半",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "cc-ocr",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "ned": 0.875,
+        "character_macro_f1": 0.19999999966,
+        "character_micro_f1": 0.19999999966
+      },
+      "completed": {
+        "ned": 0.875,
+        "character_macro_f1": 0.19999999966,
+        "character_micro_f1": 0.19999999966
+      }
+    }
+  },
+  {
+    "task": "mtvqa",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": [
+          "東京"
+        ],
+        "reference_unit": "answer"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "mtvqa",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "accuracy": 0.0
+      },
+      "completed": {
+        "accuracy": 0.0
+      },
+      "official_revision": "efc6a78a701516a76649430e1100c98e2904a7d8",
+      "official_rule": "Case-insensitive annotation substring; remove periods in prediction"
+    }
+  },
+  {
+    "task": "mtvqa",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": [
+          "東京"
+        ],
+        "reference_unit": "answer"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "「東京」である。\\boxed{東京}",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "mtvqa",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "accuracy": 1.0
+      },
+      "completed": {
+        "accuracy": 1.0
+      },
+      "official_revision": "efc6a78a701516a76649430e1100c98e2904a7d8",
+      "official_rule": "Case-insensitive annotation substring; remove periods in prediction"
+    }
+  },
+  {
+    "task": "mtvqa",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": [
+          "東京"
+        ],
+        "reference_unit": "answer"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "「東京」「東京」\\boxed{東京}",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "mtvqa",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "accuracy": 1.0
+      },
+      "completed": {
+        "accuracy": 1.0
+      },
+      "official_revision": "efc6a78a701516a76649430e1100c98e2904a7d8",
+      "official_rule": "Case-insensitive annotation substring; remove periods in prediction"
+    }
+  },
+  {
+    "task": "mtvqa",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": [
+          "東京"
+        ],
+        "reference_unit": "answer"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "「」\\boxed{大阪}",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "mtvqa",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "accuracy": 0.0
+      },
+      "completed": {
+        "accuracy": 0.0
+      },
+      "official_revision": "efc6a78a701516a76649430e1100c98e2904a7d8",
+      "official_rule": "Case-insensitive annotation substring; remove periods in prediction"
+    }
+  },
+  {
+    "task": "mtvqa",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": [
+          "東京"
+        ],
+        "reference_unit": "answer"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "\\boxed{東京}\\boxed{",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "mtvqa",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "accuracy": 1.0
+      },
+      "completed": {
+        "accuracy": 1.0
+      },
+      "official_revision": "efc6a78a701516a76649430e1100c98e2904a7d8",
+      "official_rule": "Case-insensitive annotation substring; remove periods in prediction"
+    }
+  },
+  {
+    "task": "mtvqa",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": [
+          "東京"
+        ],
+        "reference_unit": "answer"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "\\boxed{}",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "mtvqa",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "accuracy": 0.0
+      },
+      "completed": {
+        "accuracy": 0.0
+      },
+      "official_revision": "efc6a78a701516a76649430e1100c98e2904a7d8",
+      "official_rule": "Case-insensitive annotation substring; remove periods in prediction"
+    }
+  },
+  {
+    "task": "mtvqa",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": [
+          "東京"
+        ],
+        "reference_unit": "answer"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "\\boxed{東京}",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "mtvqa",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "accuracy": 1.0
+      },
+      "completed": {
+        "accuracy": 1.0
+      },
+      "official_revision": "efc6a78a701516a76649430e1100c98e2904a7d8",
+      "official_rule": "Case-insensitive annotation substring; remove periods in prediction"
+    }
+  },
+  {
+    "task": "mtvqa",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": [
+          "東京"
+        ],
+        "reference_unit": "answer"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "東京\n大阪",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "mtvqa",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "accuracy": 1.0
+      },
+      "completed": {
+        "accuracy": 1.0
+      },
+      "official_revision": "efc6a78a701516a76649430e1100c98e2904a7d8",
+      "official_rule": "Case-insensitive annotation substring; remove periods in prediction"
+    }
+  },
+  {
+    "task": "mtvqa",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": [
+          "東京"
+        ],
+        "reference_unit": "answer"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "Ａ ＢＣ\n東京",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "mtvqa",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "accuracy": 1.0
+      },
+      "completed": {
+        "accuracy": 1.0
+      },
+      "official_revision": "efc6a78a701516a76649430e1100c98e2904a7d8",
+      "official_rule": "Case-insensitive annotation substring; remove periods in prediction"
+    }
+  },
+  {
+    "task": "mtvqa",
+    "gold": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "reference": [
+          "東京"
+        ],
+        "reference_unit": "answer"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "前半\\boxed{{東京}}後半",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "mtvqa",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "accuracy": 1.0
+      },
+      "completed": {
+        "accuracy": 1.0
+      },
+      "official_revision": "efc6a78a701516a76649430e1100c98e2904a7d8",
+      "official_rule": "Case-insensitive annotation substring; remove periods in prediction"
+    }
+  },
+  {
+    "task": "crop",
+    "gold": [
+      {
+        "id": "i",
+        "source_id": "i",
+        "text": "東京",
+        "primary": true,
+        "size_bin": "small",
+        "image_sha256": "hash"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "crop",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "ned": 1.0,
+        "em": 0.0
+      },
+      "completed": {
+        "ned": 1.0,
+        "em": 0.0
+      },
+      "subsets": {
+        "common580": {
+          "expected": 1,
+          "generated": 1,
+          "status_counts": {
+            "generated": 1
+          },
+          "capped": 0,
+          "cap_unknown": 0,
+          "fixed": {
+            "ned": 1.0,
+            "em": 0.0
+          },
+          "completed": {
+            "ned": 1.0,
+            "em": 0.0
+          }
+        },
+        "size:small": {
+          "expected": 1,
+          "generated": 1,
+          "status_counts": {
+            "generated": 1
+          },
+          "capped": 0,
+          "cap_unknown": 0,
+          "fixed": {
+            "ned": 1.0,
+            "em": 0.0
+          },
+          "completed": {
+            "ned": 1.0,
+            "em": 0.0
+          }
+        }
+      }
+    }
+  },
+  {
+    "task": "crop",
+    "gold": [
+      {
+        "id": "i",
+        "source_id": "i",
+        "text": "東京",
+        "primary": true,
+        "size_bin": "small",
+        "image_sha256": "hash"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "「東京」である。\\boxed{東京}",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "crop",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "ned": 0.8888888888888888,
+        "em": 0.0
+      },
+      "completed": {
+        "ned": 0.8888888888888888,
+        "em": 0.0
+      },
+      "subsets": {
+        "common580": {
+          "expected": 1,
+          "generated": 1,
+          "status_counts": {
+            "generated": 1
+          },
+          "capped": 0,
+          "cap_unknown": 0,
+          "fixed": {
+            "ned": 0.8888888888888888,
+            "em": 0.0
+          },
+          "completed": {
+            "ned": 0.8888888888888888,
+            "em": 0.0
+          }
+        },
+        "size:small": {
+          "expected": 1,
+          "generated": 1,
+          "status_counts": {
+            "generated": 1
+          },
+          "capped": 0,
+          "cap_unknown": 0,
+          "fixed": {
+            "ned": 0.8888888888888888,
+            "em": 0.0
+          },
+          "completed": {
+            "ned": 0.8888888888888888,
+            "em": 0.0
+          }
+        }
+      }
+    }
+  },
+  {
+    "task": "crop",
+    "gold": [
+      {
+        "id": "i",
+        "source_id": "i",
+        "text": "東京",
+        "primary": true,
+        "size_bin": "small",
+        "image_sha256": "hash"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "「東京」「東京」\\boxed{東京}",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "crop",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "ned": 0.8888888888888888,
+        "em": 0.0
+      },
+      "completed": {
+        "ned": 0.8888888888888888,
+        "em": 0.0
+      },
+      "subsets": {
+        "common580": {
+          "expected": 1,
+          "generated": 1,
+          "status_counts": {
+            "generated": 1
+          },
+          "capped": 0,
+          "cap_unknown": 0,
+          "fixed": {
+            "ned": 0.8888888888888888,
+            "em": 0.0
+          },
+          "completed": {
+            "ned": 0.8888888888888888,
+            "em": 0.0
+          }
+        },
+        "size:small": {
+          "expected": 1,
+          "generated": 1,
+          "status_counts": {
+            "generated": 1
+          },
+          "capped": 0,
+          "cap_unknown": 0,
+          "fixed": {
+            "ned": 0.8888888888888888,
+            "em": 0.0
+          },
+          "completed": {
+            "ned": 0.8888888888888888,
+            "em": 0.0
+          }
+        }
+      }
+    }
+  },
+  {
+    "task": "crop",
+    "gold": [
+      {
+        "id": "i",
+        "source_id": "i",
+        "text": "東京",
+        "primary": true,
+        "size_bin": "small",
+        "image_sha256": "hash"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "「」\\boxed{大阪}",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "crop",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "ned": 1.0,
+        "em": 0.0
+      },
+      "completed": {
+        "ned": 1.0,
+        "em": 0.0
+      },
+      "subsets": {
+        "common580": {
+          "expected": 1,
+          "generated": 1,
+          "status_counts": {
+            "generated": 1
+          },
+          "capped": 0,
+          "cap_unknown": 0,
+          "fixed": {
+            "ned": 1.0,
+            "em": 0.0
+          },
+          "completed": {
+            "ned": 1.0,
+            "em": 0.0
+          }
+        },
+        "size:small": {
+          "expected": 1,
+          "generated": 1,
+          "status_counts": {
+            "generated": 1
+          },
+          "capped": 0,
+          "cap_unknown": 0,
+          "fixed": {
+            "ned": 1.0,
+            "em": 0.0
+          },
+          "completed": {
+            "ned": 1.0,
+            "em": 0.0
+          }
+        }
+      }
+    }
+  },
+  {
+    "task": "crop",
+    "gold": [
+      {
+        "id": "i",
+        "source_id": "i",
+        "text": "東京",
+        "primary": true,
+        "size_bin": "small",
+        "image_sha256": "hash"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "\\boxed{東京}\\boxed{",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "crop",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "ned": 0.8823529411764706,
+        "em": 0.0
+      },
+      "completed": {
+        "ned": 0.8823529411764706,
+        "em": 0.0
+      },
+      "subsets": {
+        "common580": {
+          "expected": 1,
+          "generated": 1,
+          "status_counts": {
+            "generated": 1
+          },
+          "capped": 0,
+          "cap_unknown": 0,
+          "fixed": {
+            "ned": 0.8823529411764706,
+            "em": 0.0
+          },
+          "completed": {
+            "ned": 0.8823529411764706,
+            "em": 0.0
+          }
+        },
+        "size:small": {
+          "expected": 1,
+          "generated": 1,
+          "status_counts": {
+            "generated": 1
+          },
+          "capped": 0,
+          "cap_unknown": 0,
+          "fixed": {
+            "ned": 0.8823529411764706,
+            "em": 0.0
+          },
+          "completed": {
+            "ned": 0.8823529411764706,
+            "em": 0.0
+          }
+        }
+      }
+    }
+  },
+  {
+    "task": "crop",
+    "gold": [
+      {
+        "id": "i",
+        "source_id": "i",
+        "text": "東京",
+        "primary": true,
+        "size_bin": "small",
+        "image_sha256": "hash"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "\\boxed{}",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "crop",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "ned": 1.0,
+        "em": 0.0
+      },
+      "completed": {
+        "ned": 1.0,
+        "em": 0.0
+      },
+      "subsets": {
+        "common580": {
+          "expected": 1,
+          "generated": 1,
+          "status_counts": {
+            "generated": 1
+          },
+          "capped": 0,
+          "cap_unknown": 0,
+          "fixed": {
+            "ned": 1.0,
+            "em": 0.0
+          },
+          "completed": {
+            "ned": 1.0,
+            "em": 0.0
+          }
+        },
+        "size:small": {
+          "expected": 1,
+          "generated": 1,
+          "status_counts": {
+            "generated": 1
+          },
+          "capped": 0,
+          "cap_unknown": 0,
+          "fixed": {
+            "ned": 1.0,
+            "em": 0.0
+          },
+          "completed": {
+            "ned": 1.0,
+            "em": 0.0
+          }
+        }
+      }
+    }
+  },
+  {
+    "task": "crop",
+    "gold": [
+      {
+        "id": "i",
+        "source_id": "i",
+        "text": "東京",
+        "primary": true,
+        "size_bin": "small",
+        "image_sha256": "hash"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "\\boxed{東京}",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "crop",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "ned": 0.8,
+        "em": 0.0
+      },
+      "completed": {
+        "ned": 0.8,
+        "em": 0.0
+      },
+      "subsets": {
+        "common580": {
+          "expected": 1,
+          "generated": 1,
+          "status_counts": {
+            "generated": 1
+          },
+          "capped": 0,
+          "cap_unknown": 0,
+          "fixed": {
+            "ned": 0.8,
+            "em": 0.0
+          },
+          "completed": {
+            "ned": 0.8,
+            "em": 0.0
+          }
+        },
+        "size:small": {
+          "expected": 1,
+          "generated": 1,
+          "status_counts": {
+            "generated": 1
+          },
+          "capped": 0,
+          "cap_unknown": 0,
+          "fixed": {
+            "ned": 0.8,
+            "em": 0.0
+          },
+          "completed": {
+            "ned": 0.8,
+            "em": 0.0
+          }
+        }
+      }
+    }
+  },
+  {
+    "task": "crop",
+    "gold": [
+      {
+        "id": "i",
+        "source_id": "i",
+        "text": "東京",
+        "primary": true,
+        "size_bin": "small",
+        "image_sha256": "hash"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "東京\n大阪",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "crop",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "ned": 0.5,
+        "em": 0.0
+      },
+      "completed": {
+        "ned": 0.5,
+        "em": 0.0
+      },
+      "subsets": {
+        "common580": {
+          "expected": 1,
+          "generated": 1,
+          "status_counts": {
+            "generated": 1
+          },
+          "capped": 0,
+          "cap_unknown": 0,
+          "fixed": {
+            "ned": 0.5,
+            "em": 0.0
+          },
+          "completed": {
+            "ned": 0.5,
+            "em": 0.0
+          }
+        },
+        "size:small": {
+          "expected": 1,
+          "generated": 1,
+          "status_counts": {
+            "generated": 1
+          },
+          "capped": 0,
+          "cap_unknown": 0,
+          "fixed": {
+            "ned": 0.5,
+            "em": 0.0
+          },
+          "completed": {
+            "ned": 0.5,
+            "em": 0.0
+          }
+        }
+      }
+    }
+  },
+  {
+    "task": "crop",
+    "gold": [
+      {
+        "id": "i",
+        "source_id": "i",
+        "text": "東京",
+        "primary": true,
+        "size_bin": "small",
+        "image_sha256": "hash"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "Ａ ＢＣ\n東京",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "crop",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "ned": 0.6,
+        "em": 0.0
+      },
+      "completed": {
+        "ned": 0.6,
+        "em": 0.0
+      },
+      "subsets": {
+        "common580": {
+          "expected": 1,
+          "generated": 1,
+          "status_counts": {
+            "generated": 1
+          },
+          "capped": 0,
+          "cap_unknown": 0,
+          "fixed": {
+            "ned": 0.6,
+            "em": 0.0
+          },
+          "completed": {
+            "ned": 0.6,
+            "em": 0.0
+          }
+        },
+        "size:small": {
+          "expected": 1,
+          "generated": 1,
+          "status_counts": {
+            "generated": 1
+          },
+          "capped": 0,
+          "cap_unknown": 0,
+          "fixed": {
+            "ned": 0.6,
+            "em": 0.0
+          },
+          "completed": {
+            "ned": 0.6,
+            "em": 0.0
+          }
+        }
+      }
+    }
+  },
+  {
+    "task": "crop",
+    "gold": [
+      {
+        "id": "i",
+        "source_id": "i",
+        "text": "東京",
+        "primary": true,
+        "size_bin": "small",
+        "image_sha256": "hash"
+      }
+    ],
+    "cohort": [
+      {
+        "id": "i",
+        "primary": true,
+        "regions": [
+          {
+            "text": "東京"
+          },
+          {
+            "text": "大阪"
+          }
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "key": "i",
+        "image_id": "i",
+        "text": "前半\\boxed{{東京}}後半",
+        "capped": false,
+        "status": "generated",
+        "image_sha256": "hash"
+      }
+    ],
+    "expected": {
+      "schema": 1,
+      "task": "crop",
+      "metrics_version": "jawildtext-metrics v2 (2026-09-28)",
+      "definitions": {
+        "fixed": "All references; unavailable outputs receive empty text (QA incorrect)",
+        "completed": "Generated outputs only, including empty and capped generations",
+        "units": "Rates in [0,1]; multiply by 100 only when displaying percentages"
+      },
+      "expected": 1,
+      "generated": 1,
+      "status_counts": {
+        "generated": 1
+      },
+      "capped": 0,
+      "cap_unknown": 0,
+      "fixed": {
+        "ned": 0.875,
+        "em": 0.0
+      },
+      "completed": {
+        "ned": 0.875,
+        "em": 0.0
+      },
+      "subsets": {
+        "common580": {
+          "expected": 1,
+          "generated": 1,
+          "status_counts": {
+            "generated": 1
+          },
+          "capped": 0,
+          "cap_unknown": 0,
+          "fixed": {
+            "ned": 0.875,
+            "em": 0.0
+          },
+          "completed": {
+            "ned": 0.875,
+            "em": 0.0
+          }
+        },
+        "size:small": {
+          "expected": 1,
+          "generated": 1,
+          "status_counts": {
+            "generated": 1
+          },
+          "capped": 0,
+          "cap_unknown": 0,
+          "fixed": {
+            "ned": 0.875,
+            "em": 0.0
+          },
+          "completed": {
+            "ned": 0.875,
+            "em": 0.0
+          }
+        }
+      }
+    }
+  }
+]

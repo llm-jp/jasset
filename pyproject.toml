@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jasset"
+version = "0.1.0"
+description = "Japanese scene-text OCR and visual question answering with JaSSeT"
+requires-python = ">=3.11,<3.13"
+dependencies = ["numpy>=1.26,<3", "scipy==1.15.3", "rapidfuzz==3.14.1", "numba>=0.61,<0.66", "pillow==12.0.0", "pyarrow>=18", "huggingface-hub>=0.34", "PyYAML>=6"]
+
+[project.optional-dependencies]
+train = ["vllm==0.28.0", "transformers==5.17.0", "trl==1.13.0", "accelerate==1.12.0", "datasets==4.8.4", "flash-linear-attention==0.5.2"]
+dev = ["pytest>=8,<9"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

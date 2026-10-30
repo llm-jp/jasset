@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="static/favicon.svg" type="image/svg+xml">
+<title>JaSSeT — 日本語シーンテキスト理解</title>
+<meta name="description" content="日本語合成シーンテキストデータセット JaSSeT と、OCR・画像質問応答のマルチタスク学習。">
+<link rel="canonical" href="https://llm-jp.github.io/jasset/">
+<meta name="theme-color" content="#245d5a">
+<link rel="stylesheet" href="static/bulma.min.css"><link rel="stylesheet" href="static/site.css">
+</head>
+<body>
+<main>
+<section class="hero"><div class="hero-body"><div class="container is-max-desktop has-text-centered">
+<p class="project-name">JaSSeT</p>
+<h1 class="title publication-title">日本語シーンテキスト理解に向けた<br class="wide">合成データを用いたOCRと<br class="wide">画像質問応答のマルチタスク学習</h1>
+<p class="publication-authors">前田 航希<span class="author-space"></span>岡崎 直観</p>
+<p class="affiliations">東京科学大学<br>国立情報学研究所 大規模言語モデル研究開発センター</p>
+<div class="publication-links">
+<span class="link-block"><a class="button is-rounded is-dark" href="https://huggingface.co/datasets/llm-jp/jasset">🤗&nbsp; データセット</a></span>
+<span class="link-block"><a class="button is-rounded is-dark" href="https://github.com/llm-jp/jasset">GitHub</a></span>
+<span class="link-block"><span class="button is-rounded paper-pending" aria-disabled="true">論文（準備中）</span></span>
+</div>
+</div></div></section>
+<section class="section overview"><div class="container is-max-desktop">
+<figure><a href="static/overview.svg" aria-label="研究の概要図を拡大表示"><img src="static/overview.svg" alt="日本語シーンテキストの読み取りの課題、JaSSeTの合成データとOCR・画像質問応答のマルチタスク学習を示す概要図" width="1200" height="480"></a>
+<figcaption>日本語のシーン画像に、文字列と質問・回答・根拠を対応付けた合成データセット。</figcaption></figure>
+</div></section>
+<section class="section abstract"><div class="container is-max-desktop"><h2 class="title is-4">アブストラクト</h2><div class="content"><p>シーン画像に含まれる文字情報に基づいて質問に答えるには、回答の根拠となる文字列を漏れなく読み取ることが重要である。しかし、公開されている21種類の視覚言語モデル（VLM）の評価から、個々の文字領域の認識に比べ、画像全体から文字情報を漏れなく読み取ることに課題があると分かった。また、文字の読み取りと質問応答をともに学習するための、文字列と各回答の根拠を同じ日本語シーン画像に対応付けた学習資源は限られる。そこで本研究では、画像生成モデルを用いて、文字列と質問・回答・根拠を対応付けた日本語合成シーンテキストデータセット JaSSeT を構築する。このデータを用い、 OCR と画像質問応答を組み合わせたマルチタスク強化学習を行って性能の改善を図る。実験では、学習前に比べて JaWildText におけるシーンテキスト理解性能の向上を確認した。出力の分析では、小さい文字や文字領域の多い画像において読み取りが改善していることを明らかにした。</p></div></div></section>
+<section class="section citation"><div class="container is-max-desktop"><div class="citation-heading"><h2 class="title is-4">引用</h2><button id="copy-citation" class="button is-small is-rounded" type="button">BibTeXをコピー</button></div><pre><code id="bibtex">@misc{maeda2026jasset,
+  title = {日本語シーンテキスト理解に向けた合成データを用いたOCRと画像質問応答のマルチタスク学習},
+  author = {前田 航希 and 岡崎 直観},
+  year = {2026},
+  howpublished = {Project repository},
+  url = {https://github.com/llm-jp/jasset}
+}</code></pre><p class="citation-note">プロジェクトの暫定的な引用情報です。論文公開後に更新します。</p><span id="copy-status" role="status" aria-live="polite"></span></div></section>
+</main>
+<footer class="footer"><div class="content has-text-centered"><p>JaSSeT</p><p class="credits">Website adapted from <a href="https://github.com/eliahuhorwitz/Academic-project-page-template">Academic Project Page Template</a>, based on <a href="https://nerfies.github.io/">Nerfies</a>.<br>Website template: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p></div></footer>
+<script src="static/site.js"></script>
+</body></html>
